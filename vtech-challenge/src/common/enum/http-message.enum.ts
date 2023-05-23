@@ -1,0 +1,17 @@
+export enum HttpMessage {
+  OK = 'Request successful',
+  CREATED = 'object created',
+  ACCEPTED = 'Request accepted',
+  BAD_REQUEST = 'Bad request',
+  INVALID_CODE = 'Invalid code',
+  UNAUTHORIZED = 'Unauthorized',
+  PAYMENT_REQUIRED = 'Payment required',
+  FORBIDDEN = 'Resource forbidden',
+  NOT_FOUND = 'Resource not found',
+  REQUEST_TIMEOUT = 'Request timeout',
+  CONFLICT = 'Resource conflict error',
+  I_AM_A_TEAPOT = 'i am a tea pot',
+  UNPROCESSABLE_ENTITY = 'Validation error',
+  INTERNAL_SERVER_ERROR = 'Internal server error',
+  TO_MANY_REQUESTS = 'Too Many Requests',
+}
